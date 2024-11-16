@@ -20,4 +20,9 @@ public class ScrollTextBehaviour : MonoBehaviour
     {
         mainText.text = text;
     }
+
+    public string GetText()
+    {
+        return mainText.text;
+    }
 }
