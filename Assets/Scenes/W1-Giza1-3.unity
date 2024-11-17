@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectable
       objectReference: {fileID: 0}
+    - target: {fileID: 8208490986490097841, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -322,8 +326,8 @@ EdgeCollider2D:
   m_Points:
   - {x: 0.5, y: -3.5}
   - {x: 0.5, y: 7.4}
-  - {x: 20.75, y: 7.4}
-  - {x: 20.75, y: -3.5}
+  - {x: 60, y: 7.4}
+  - {x: 60, y: -3.5}
   - {x: 20.75, y: -3.5}
   - {x: 0.5, y: -3.5}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -426,8 +430,8 @@ Transform:
   m_GameObject: {fileID: 701760865}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.0106, y: -10.181, z: 0}
-  m_LocalScale: {x: 20.348703, y: 12.2349825, z: 1}
+  m_LocalPosition: {x: 18.4887, y: -10.181, z: 0}
+  m_LocalScale: {x: 67.46724, y: 12.2349825, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -530,8 +534,8 @@ Transform:
   m_GameObject: {fileID: 1153804561}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 10.673101, y: 1.9987013, z: 8.318292}
-  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
+  m_LocalPosition: {x: 30.0747, y: 1.9987, z: 8.318292}
+  m_LocalScale: {x: 3.42108, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 268560243}
@@ -850,8 +854,12 @@ PrefabInstance:
       value: Main Camera
       objectReference: {fileID: 0}
     - target: {fileID: 2627792385288943405, guid: b57fb139dd5694d15b42036609382d87, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.42108
+      objectReference: {fileID: 0}
+    - target: {fileID: 2627792385288943405, guid: b57fb139dd5694d15b42036609382d87, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 19.4016
       objectReference: {fileID: 0}
     - target: {fileID: 2627792385288943405, guid: b57fb139dd5694d15b42036609382d87, type: 3}
       propertyPath: m_LocalPosition.y
@@ -969,6 +977,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Collectable2
       objectReference: {fileID: 0}
+    - target: {fileID: 8208490986490097841, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1025,6 +1037,10 @@ PrefabInstance:
     - target: {fileID: 4959000230822819139, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 4959000230822819139, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
