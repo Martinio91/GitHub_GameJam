@@ -5,24 +5,24 @@ using TMPro;
 
 public class ScrollTextBehaviour : MonoBehaviour
 {
-    public TextMeshProUGUI mainText;
+    public TextMeshProUGUI TMPText;
 
     public void Start()
     {
-        if(mainText is null)
+        if(TMPText is null)
         {
-            mainText = GetComponent<TextMeshProUGUI>();
+            TMPText = GetComponent<TextMeshProUGUI>();
         }
-        //mainText.text = "Example text";
+        gameObject.SetActive(false);
     }
 
     public void SetText(string text)
     {
-        mainText.text = text;
+        TMPText.text = text;
     }
 
     public string GetText()
     {
-        return mainText.text;
+        return TMPText.text;
     }
 }

@@ -132,12 +132,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: text
+      value: This is an example of the text that should appear when the UI opens
+      objectReference: {fileID: 0}
+    - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: textEx
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: onCollect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
       propertyPath: onCollect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1835590181}
     - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
       propertyPath: onCollect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: This is an example of the text that should appear when the UI opens
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 7498618483132238502, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -589,9 +601,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1988111564}
     m_Modifications:
+    - target: {fileID: 3609299960521239174, guid: b2385ba2546634dacb449a439394233a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3926116237337323264, guid: b2385ba2546634dacb449a439394233a, type: 3}
       propertyPath: m_Name
       value: Scroll
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865511984311601487, guid: b2385ba2546634dacb449a439394233a, type: 3}
+      propertyPath: m_text
+      value: Example
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865511984311601487, guid: b2385ba2546634dacb449a439394233a, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 4865511984311601487, guid: b2385ba2546634dacb449a439394233a, type: 3}
+      propertyPath: m_overflowMode
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 9042689528055536112, guid: b2385ba2546634dacb449a439394233a, type: 3}
       propertyPath: m_Pivot.x
@@ -879,9 +907,24 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: text
+      value: "This is an example of a really long text that we should see what happens
+        when there is too much screen time, although it seems to be holding on just
+        fine, and there doesn't seem to be a next page.\n \nWhen it is too big, then
+        it can use pages, which is ideal."
+      objectReference: {fileID: 0}
+    - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: onCollect.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
       propertyPath: onCollect.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1835590181}
+    - target: {fileID: 3998290774168571630, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
+      propertyPath: onCollect.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7498618483132238502, guid: 42210f622b9894e92bb17f6797ec00f0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.6

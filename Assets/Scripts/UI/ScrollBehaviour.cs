@@ -34,10 +34,7 @@ public class ScrollBehaviour : MonoBehaviour
         //}
         if(isUIShown && Input.GetKeyDown(KeyCode.Return))
         {
-            animator.SetTrigger("ScrollClose");
-            mainText.gameObject.SetActive(false);
-            pause.ResumeGame();
-            isUIShown = false;
+            NextPageOrClose();
         }
     }
 
@@ -47,6 +44,8 @@ public class ScrollBehaviour : MonoBehaviour
         {
             return;
         }
+        //Debug.Log(mainText);
+        mainText.TMPText.pageToDisplay = 1;
         mainText.SetText(text);
         animator.enabled = true;
         animator.ResetTrigger("ScrollOpen");
@@ -55,7 +54,29 @@ public class ScrollBehaviour : MonoBehaviour
     }
     public void OnAnimationEnd()
     {
+        //Debug.Log(mainText.TMPText.textInfo.pageCount);
         mainText.gameObject.SetActive(true);
         isUIShown = true;
+    }
+
+    public void NextPageOrClose()
+    {
+        var pages = mainText.TMPText;
+        if(pages.pageToDisplay < pages.textInfo.pageCount)
+        {
+            pages.pageToDisplay++;
+        }
+        else
+        {
+            CloseScroll();
+        }
+    }
+
+    private void CloseScroll()
+    {
+        animator.SetTrigger("ScrollClose");
+        mainText.gameObject.SetActive(false);
+        pause.ResumeGame();
+        isUIShown = false;
     }
 }

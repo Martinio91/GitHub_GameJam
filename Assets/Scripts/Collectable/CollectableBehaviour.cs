@@ -6,11 +6,12 @@ using UnityEngine.Events;
 public class CollectableBehaviour : MonoBehaviour
 {
     [SerializeField] private bool disableOnCollect;
-    public UnityEvent<string> onCollect;
+    [TextArea(3, 10)]
+    [SerializeField] private string text = "Error - No text was added to this object";
+    [SerializeField] private UnityEvent<string> onCollect;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        string text = "Error - No text was added to this object";
         if (collision.gameObject.GetComponent<PlayerController>())
         {
             onCollect?.Invoke(text);
