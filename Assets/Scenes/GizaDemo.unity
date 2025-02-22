@@ -8626,18 +8626,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 350522245594317452, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: hasKey
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 350522245594317452, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: wallJumpDistance
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 350522245594317452, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: canQuickDoubleJump
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1191389166613858862, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -41.38
@@ -8681,26 +8669,6 @@ PrefabInstance:
     - target: {fileID: 4959000230822819139, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 4959000230822819139, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5340592932177006804, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: m_Color.b
-      value: 0.06880427
-      objectReference: {fileID: 0}
-    - target: {fileID: 5340592932177006804, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: m_Color.g
-      value: 0.6792453
-      objectReference: {fileID: 0}
-    - target: {fileID: 5340592932177006804, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: m_Color.r
-      value: 0.053399645
-      objectReference: {fileID: 0}
-    - target: {fileID: 5775586065118123708, guid: 779f2c5bdf4574267b7809d4e25f00dd, type: 3}
-      propertyPath: layersToTrigger.m_Bits
-      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

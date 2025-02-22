@@ -138,7 +138,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layersToTrigger:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   OnFirstEnterTrigger:
     m_PersistentCalls:
       m_Calls:
@@ -248,7 +248,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.735849, g: 0.4408152, b: 0.4408152, a: 1}
+  m_Color: {r: 0.053399645, g: 0.6792453, b: 0.06880427, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -348,15 +348,16 @@ MonoBehaviour:
   jumpUpTime: 0.4
   fallGravityMultiplier: 1.5
   wallSlideMultiplier: 0.5
-  wallJumpDistance: 1
+  wallJumpDistance: 4
   maxVelocityMultiplier: 4
   reactionTime: 0.25
-  canQuickDoubleJump: 0
+  canQuickDoubleJump: 1
   groundCheck: {fileID: 5516733122656952470}
   wallCheck: {fileID: 5775586065118123708}
   OnJump:
     m_PersistentCalls:
       m_Calls: []
+  hasKey: 0
 --- !u!1 &5053833102441230456
 GameObject:
   m_ObjectHideFlags: 0

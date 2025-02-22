@@ -135,7 +135,7 @@ public class PlayerController : MonoBehaviour
 
         numberJumpSinceGrounded++;
 
-        if (onWall)
+        if (onWall && !onGround)
         {
             dirToWall = wallCheck.GetDirectionToColliders(tr);
             velocity = rb.velocity;
